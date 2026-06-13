@@ -1,0 +1,44 @@
+{
+  "paper": "Grounding Video Reasoning in Physical Signals",
+  "task": "Reverse spatio-temporal reasoning over physical video events",
+  "base_clip_count": 1560,
+  "video_condition_pair_count": 6240,
+  "sources": {
+    "ssv2": 600,
+    "youcook2": 600,
+    "holoassist": 275,
+    "roundabout": 85
+  },
+  "physics_domains": {
+    "Gravity": 248,
+    "Fluids": 283,
+    "Collisions": 296,
+    "Deformation": 248,
+    "Friction": 196,
+    "State Changes": 289
+  },
+  "conditions": [
+    "original",
+    "shuffled",
+    "ablated",
+    "frame_masked"
+  ],
+  "prompt_families": [
+    "physics",
+    "neutral_rstr",
+    "vstar_like"
+  ],
+  "output_schema": {
+    "a_what": "short event answer",
+    "a_when": {
+      "start_sec": "float",
+      "end_sec": "float"
+    },
+    "a_where": {
+      "x": "int",
+      "y": "int",
+      "w": "int",
+      "h": "int"
+    }
+  }
+}

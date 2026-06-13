@@ -1,0 +1,122 @@
+[
+  {
+    "dataset": "ssv2",
+    "prompt_family": "physics",
+    "model": "gemma4_26b_a4b_it",
+    "sample_id": "31244_original",
+    "prompt": "You are evaluating a physical AI task. Watch the video carefully and answer each question in order.\n\n[Step 1 - What]  how does the applied force affect the phone's motion from left to right?\n[Step 2 - When]  The video is 3.7 seconds long. At what start and end time (in seconds, as floats) does the following event occur? Event: The phone accelerates horizontally from left to right as an external force overcomes friction, converting work into kinetic energy while momentum is transferred through the contact interface.\nOutput ONLY a JSON object: {\"start_sec\": <float>, \"end_sec\": <float>}\n[Step 3 - Where] Where is the primary object during the relevant time span?\n\nProvide your answers as a JSON object with keys 'a_what', 'a_when' ({\"start_sec\": <float>, \"end_sec\": <float>}), and 'a_where' ({\"x\": <int>, \"y\": <int>, \"w\": <int>, \"h\": <int>}).\nReturn ONLY the JSON object. Do not include markdown, code fences, or reasoning.",
+    "prediction": {
+      "a_what": "The applied force causes the phone to move from left to right, increasing its velocity as work is done against static friction.",
+      "a_when": {
+        "start_sec": 0.0,
+        "end_sec": 3.7
+      },
+      "a_where": {
+        "x": 36,
+        "y": 239,
+        "w": 251,
+        "h": 541
+      }
+    }
+  },
+  {
+    "dataset": "ssv2",
+    "prompt_family": "neutral_rstr",
+    "model": "gemma4_26b_a4b_it",
+    "sample_id": "31244_original",
+    "prompt": "You are evaluating a video understanding task. Watch the video carefully and answer each question in order.\n\n[Step 1 - What]  What does the phone do in the moment when it starts to move or make contact?\n[Step 2 - When]  The video is 3.7 seconds long. At what start and end time (in seconds, as floats) does the following event occur? Event: the moment when the phone starts to move or make contact\nOutput ONLY a JSON object: {\"start_sec\": <float>, \"end_sec\": <float>}\n[Step 3 - Where] Where is the primary object during the relevant time span?\n\nProvide your answers as a JSON object with keys 'a_what', 'a_when' ({\"start_sec\": <float>, \"end_sec\": <float>}), and 'a_where' ({\"x\": <int>, \"y\": <int>, \"w\": <int>, \"h\": <int>}).\nReturn ONLY the JSON object. Do not include markdown, code fences, or reasoning.",
+    "prediction": {
+      "a_what": "The phone is held by a person's hand.",
+      "a_when": {
+        "start_sec": 0.0,
+        "end_sec": 3.7
+      },
+      "a_where": {
+        "x": 33,
+        "y": 238,
+        "w": 256,
+        "h": 545
+      }
+    }
+  },
+  {
+    "dataset": "ssv2",
+    "prompt_family": "vstar_like",
+    "model": "qwen25vl",
+    "sample_id": "31244_original",
+    "prompt": "You are evaluating a video understanding task. Watch the video carefully and answer each question in order.\n\n[Step 1 - What]  What does the phone do?\n[Step 2 - When]  When is the moment 'the phone moves from left to right' occurring?\n[Step 3 - Where] Where is the phone during the event of moving from left to right between 0s and 4s?\n\nProvide your answers as a JSON object with keys 'a_what', 'a_when' ({\"start_sec\": <float>, \"end_sec\": <float>}), and 'a_where' ({\"x\": <int>, \"y\": <int>, \"w\": <int>, \"h\": <int>}).\nReturn ONLY the JSON object. Do not include markdown, code fences, or reasoning.",
+    "prediction": {
+      "a_what": "The phone moves from left to right.",
+      "a_when": {
+        "start_sec": 0.0,
+        "end_sec": 4.0
+      },
+      "a_where": {
+        "x": 50,
+        "y": 100,
+        "w": 150,
+        "h": 200
+      }
+    }
+  },
+  {
+    "dataset": "youcook2",
+    "prompt_family": "physics",
+    "model": "gemma4_26b_a4b_it",
+    "sample_id": "316_FiE1KczH4pc_original",
+    "prompt": "You are evaluating a physical AI task. Watch the video carefully and answer each question in order.\n\n[Step 1 - What]  what physical dynamics occur during the initial operation of the blender?\n[Step 2 - When]  The video is 55.0 seconds long. At what start and end time (in seconds, as floats) does the following event occur? Event: The blender transitions from a static state to rotational motion as motor torque overcomes inertia, transferring kinetic energy to the fluid via shear forces and viscous dissipation.\nOutput ONLY a JSON object: {\"start_sec\": <float>, \"end_sec\": <float>}\n[Step 3 - Where] Where is the primary object during the relevant time span?\n\nProvide your answers as a JSON object with keys 'a_what', 'a_when' ({\"start_sec\": <float>, \"end_sec\": <float>}), and 'a_where' ({\"x\": <int>, \"y\": <int>, \"w\": <int>, \"h\": <int>}).\nReturn ONLY the JSON object. Do not include markdown, code fences, or reasoning.",
+    "prediction": {
+      "a_what": "The blender motor initiates rotation, causing the internal blades to spin rapidly. This motion creates shear forces that agitate the contents, converting electrical energy into mechanical kinetic energy, which is then transferred to the liquid/solid mixture through viscous dissipation and turbulent flow.",
+      "a_when": {
+        "start_sec": 0.0,
+        "end_sec": 3.0
+      },
+      "a_where": {
+        "x": 295,
+        "y": 127,
+        "w": 340,
+        "h": 844
+      }
+    }
+  },
+  {
+    "dataset": "roundabout",
+    "prompt_family": "physics",
+    "model": "gemma4_26b_a4b_it",
+    "sample_id": "RangelineS116thSt_av_114_21_3_original",
+    "prompt": "You are evaluating a physical AI task. Watch the video carefully and answer each question in order.\n\n[Step 1 - What]  how does lateral friction failure enable a vehicle to violate directional constraints during a maneuver?\n[Step 2 - When]  The video is 14.3 seconds long. At what start and end time (in seconds, as floats) does the following event occur? Event: The vehicle violates directional constraints when the required centripetal force for a maneuver exceeds the maximum static friction limit, causing the tires to slip and the velocity vector to diverge from the intended curved path.\nOutput ONLY a JSON object: {\"start_sec\": <float>, \"end_sec\": <float>}\n[Step 3 - Where] Where is the primary object during the relevant time span?\n\nProvide your answers as a JSON object with keys 'a_what', 'a_when' ({\"start_sec\": <float>, \"end_sec\": <float>}), and 'a_where' ({\"x\": <int>, \"y\": <int>, \"w\": <int>, \"h\": <int>}).\nReturn ONLY the JSON object. Do not include markdown, code fences, or reasoning.",
+    "prediction": {
+      "a_what": "Lateral friction failure enables a vehicle to violate directional constraints when the centripetal force required to maintain a curved path exceeds the available static friction between the tires and the road surface, causing the tires to slide laterally and the vehicle to deviate from its intended trajectory.",
+      "a_when": {
+        "start_sec": 0.0,
+        "end_sec": 14.3
+      },
+      "a_where": {
+        "x": 450,
+        "y": 500,
+        "w": 100,
+        "h": 100
+      }
+    }
+  },
+  {
+    "dataset": "holoassist",
+    "prompt_family": "vstar_like",
+    "model": "qwen25vl",
+    "sample_id": "R0027-12-GoPro_3_original",
+    "prompt": "You are evaluating a video understanding task. Watch the video carefully and answer each question in order.\n\n[Step 1 - What]  What happens to the gopro?\n[Step 2 - When]  When is the moment 'the gopro is grabbed' occurring?\n[Step 3 - Where] Where is the gopro during the event of being grabbed between 0s and 17s?\n\nProvide your answers as a JSON object with keys 'a_what', 'a_when' ({\"start_sec\": <float>, \"end_sec\": <float>}), and 'a_where' ({\"x\": <int>, \"y\": <int>, \"w\": <int>, \"h\": <int>}).\nReturn ONLY the JSON object. Do not include markdown, code fences, or reasoning.",
+    "prediction": {
+      "a_what": "The gopro is grabbed from its packaging.",
+      "a_when": {
+        "start_sec": 0.0,
+        "end_sec": 5.0
+      },
+      "a_where": {
+        "x": 180,
+        "y": 100,
+        "w": 50,
+        "h": 50
+      }
+    }
+  }
+]

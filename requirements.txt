@@ -1,0 +1,5 @@
+numpy>=1.23
+pydantic>=2.0
+
+# Needed only for generating perturbation videos.
+opencv-python>=4.8

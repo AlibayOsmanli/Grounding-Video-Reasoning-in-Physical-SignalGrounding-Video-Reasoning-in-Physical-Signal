@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grounding-video-reasoning"
+version = "0.1.0"
+description = "Reproduction code and examples for Grounding Video Reasoning in Physical Signals."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23",
+  "pydantic>=2.0"
+]
+
+[project.optional-dependencies]
+video = [
+  "opencv-python>=4.8"
+]
+
+[tool.setuptools.packages.find]
+include = ["grounding_video_reasoning*"]

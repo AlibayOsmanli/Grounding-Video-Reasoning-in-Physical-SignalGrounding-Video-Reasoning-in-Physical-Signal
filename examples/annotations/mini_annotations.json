@@ -1,0 +1,50 @@
+[
+  {
+    "sample_id": "31244_original",
+    "video_id": "31244",
+    "condition": "original",
+    "video_path": "videos/31244/31244_original.mp4",
+    "domain": "Friction",
+    "width": 640,
+    "height": 720,
+    "a_what": "The phone accelerates horizontally from left to right as an external force overcomes friction.",
+    "a_when": {
+      "start_sec": 0.0,
+      "end_sec": 3.7
+    },
+    "a_where": {
+      "x": 36,
+      "y": 239,
+      "w": 251,
+      "h": 420
+    },
+    "metadata": {
+      "object": "phone",
+      "source_dataset": "ssv2"
+    }
+  },
+  {
+    "sample_id": "31244_frame_masked",
+    "video_id": "31244",
+    "condition": "frame_masked",
+    "video_path": "videos/31244/31244_frame_masked.mp4",
+    "domain": "Friction",
+    "width": 640,
+    "height": 720,
+    "a_what": "The phone accelerates horizontally from left to right as an external force overcomes friction.",
+    "a_when": {
+      "start_sec": 0.0,
+      "end_sec": 3.7
+    },
+    "a_where": {
+      "x": 36,
+      "y": 239,
+      "w": 251,
+      "h": 420
+    },
+    "metadata": {
+      "object": "phone",
+      "source_dataset": "ssv2"
+    }
+  }
+]

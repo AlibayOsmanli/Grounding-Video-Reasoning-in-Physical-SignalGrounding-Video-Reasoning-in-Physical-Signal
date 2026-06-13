@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+*.log
+
+# Keep generated data/results out of the repository.
+data/
+datasets/
+results/
+checkpoints/
+caches/
+*.mp4
+*.jsonl.tmp

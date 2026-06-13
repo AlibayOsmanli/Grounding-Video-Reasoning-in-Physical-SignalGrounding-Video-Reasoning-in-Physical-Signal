@@ -1,0 +1,45 @@
+{
+  "_comment": "Replace CHANGE_ME paths locally. Do not commit machine-specific paths.",
+  "python": "python",
+  "paths": {
+    "datasets_root": "CHANGE_ME/raw_source_datasets",
+    "source_videos_dir": "CHANGE_ME/source_mp4s_for_perturbation_smoke_test",
+    "dataset_base": "CHANGE_ME/generated_grounding_video_reasoning_dataset",
+    "results_root": "CHANGE_ME/grounding_video_reasoning_results"
+  },
+  "datasets": [
+    "ssv2",
+    "youcook2",
+    "holoassist",
+    "roundabout"
+  ],
+  "conditions": [
+    "original",
+    "shuffled",
+    "ablated",
+    "frame_masked"
+  ],
+  "prompt_families": {
+    "physics": {
+      "results_subdir": "physics"
+    },
+    "neutral_rstr": {
+      "results_subdir": "neutral_rstr"
+    },
+    "vstar_like": {
+      "results_subdir": "vstar_like"
+    }
+  },
+  "models": [
+    "qwen25vl",
+    "qwen3vl",
+    "videollama3",
+    "internvideo25",
+    "minicpm_o_26",
+    "internvl35",
+    "qwen35",
+    "qwen3vl-thinking",
+    "gemma4_26b_a4b_it",
+    "molmo2_8b"
+  ]
+}

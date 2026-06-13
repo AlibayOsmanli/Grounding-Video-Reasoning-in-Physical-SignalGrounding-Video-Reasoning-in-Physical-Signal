@@ -1,0 +1,52 @@
+{
+  "qwen25vl": {
+    "hf_model_id": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "default_num_frames": 16,
+    "default_max_new_tokens": 512
+  },
+  "qwen3vl": {
+    "hf_model_id": "Qwen/Qwen3-VL-8B-Instruct",
+    "default_num_frames": 16,
+    "default_max_new_tokens": 512
+  },
+  "videollama3": {
+    "hf_model_id": "DAMO-NLP-SG/VideoLLaMA3-7B",
+    "default_num_frames": 128,
+    "default_max_new_tokens": 512
+  },
+  "internvideo25": {
+    "hf_model_id": "OpenGVLab/InternVideo2_5_Chat_8B",
+    "default_num_frames": 32,
+    "default_max_new_tokens": 512
+  },
+  "internvl35": {
+    "hf_model_id": "OpenGVLab/InternVL3_5-8B",
+    "default_num_frames": 16,
+    "default_max_new_tokens": 512
+  },
+  "minicpm_o_26": {
+    "hf_model_id": "openbmb/MiniCPM-o-2_6",
+    "default_num_frames": 64,
+    "default_max_new_tokens": 512
+  },
+  "qwen3vl-thinking": {
+    "hf_model_id": "Qwen/Qwen3-VL-8B-Thinking",
+    "default_num_frames": 16,
+    "default_max_new_tokens": 20000
+  },
+  "qwen35": {
+    "hf_model_id": "Qwen/Qwen3.5-9B",
+    "default_num_frames": 16,
+    "default_max_new_tokens": 2048
+  },
+  "gemma4_26b_a4b_it": {
+    "hf_model_id": "google/gemma-4-26B-A4B-it",
+    "default_num_frames": 16,
+    "default_max_new_tokens": 1024
+  },
+  "molmo2_8b": {
+    "hf_model_id": "allenai/Molmo2-8B",
+    "default_num_frames": 16,
+    "default_max_new_tokens": 2048
+  }
+}
