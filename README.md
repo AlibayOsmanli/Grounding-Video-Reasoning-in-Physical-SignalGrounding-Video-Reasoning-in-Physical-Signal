@@ -3,6 +3,8 @@
 Code and compact artifacts for reproducing the benchmark protocol from
 **Grounding Video Reasoning in Physical Signals**.
 
+Paper: https://arxiv.org/abs/2604.21873
+
 This repository is meant to be small enough to upload to GitHub while still
 containing real code and real examples. It does not include raw videos, model
 checkpoints, cache directories, private cluster paths, or Slurm logs.
