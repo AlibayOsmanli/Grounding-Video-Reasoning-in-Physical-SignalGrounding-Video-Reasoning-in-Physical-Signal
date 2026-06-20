@@ -1,8 +1,4 @@
 cff-version: 1.2.0
 title: "Grounding Video Reasoning in Physical Signals"
 message: "If you use this code or benchmark protocol, please cite the paper."
-authors:
-  - family-names: "Anonymous"
-    given-names: "Authors"
-version: "0.1.0"
 url: "https://arxiv.org/abs/2604.21873"
